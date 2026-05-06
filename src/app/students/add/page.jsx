@@ -43,7 +43,7 @@ const StudentsAdd = () => {
         
     }
     return (
-        <div className="w-[40%] mx-auto">
+        <div className="w-[30%] mx-auto shadow-lg my-10 p-6">
             <h2 className="text-3xl font-bold my-4">Enter a New Add Members </h2>
               <Form className="w-full max-w-96" onSubmit={onSubmit}>
       <Fieldset>

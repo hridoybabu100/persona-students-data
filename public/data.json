@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Mango Combo",
+    "price": 1200,
+    "oldPrice": 1500,
+    "discount": "20% OFF",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1553279768-865429fa0078",
+    "tag": "Hot"
+  },
+  {
+    "id": 2,
+    "title": "Fresh Juice Pack",
+    "price": 800,
+    "oldPrice": 1000,
+    "discount": "20% OFF",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba",
+    "tag": "Popular"
+  },
+  {
+    "id": 3,
+    "title": "Organic Honey",
+    "price": 650,
+    "oldPrice": 900,
+    "discount": "28% OFF",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38",
+    "tag": "Best"
+  },
+  {
+    "id": 4,
+    "title": "Dry Fruits Mix",
+    "price": 1500,
+    "oldPrice": 1800,
+    "discount": "17% OFF",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1599599810769-bcde5a160d32",
+    "tag": "Hot"
+  },
+  {
+    "id": 5,
+    "title": "Premium Dates",
+    "price": 900,
+    "oldPrice": 1100,
+    "discount": "18% OFF",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1587735243615-c03f25aaff15",
+    "tag": "Sale"
+  },
+  {
+    "id": 6,
+    "title": "Chocolate Box",
+    "price": 700,
+    "oldPrice": 950,
+    "discount": "26% OFF",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1606312619070-d48b4c652a52",
+    "tag": "Trending"
+  },
+  {
+    "id": 7,
+    "title": "Ice Cream Pack",
+    "price": 500,
+    "oldPrice": 650,
+    "discount": "23% OFF",
+    "rating": 4.2,
+    "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb",
+    "tag": "Cool"
+  },
+  {
+    "id": 8,
+    "title": "Fruit Basket",
+    "price": 1300,
+    "oldPrice": 1600,
+    "discount": "19% OFF",
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1610832958506-aa56368176cf",
+    "tag": "Fresh"
+  },
+  {
+    "id": 9,
+    "title": "Milk Shake Combo",
+    "price": 600,
+    "oldPrice": 800,
+    "discount": "25% OFF",
+    "rating": 4.3,
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699",
+    "tag": "Hot"
+  },
+  {
+    "id": 10,
+    "title": "Snack Box",
+    "price": 750,
+    "oldPrice": 950,
+    "discount": "21% OFF",
+    "rating": 4.4,
+    "image": "https://images.unsplash.com/photo-1604908176997-4316e3e1e6d3",
+    "tag": "Popular"
+  }
+]
