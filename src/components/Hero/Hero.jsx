@@ -13,9 +13,13 @@ const Hero = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <Link href={'/students/add'}>
-              <button className="btn btn-primary">Create a New Student</button>
-            </Link>
+            <div className="animate-bounce">
+              <Link href={"/students/add"}>
+                <button className="btn btn-primary">
+                  Create a New Student
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

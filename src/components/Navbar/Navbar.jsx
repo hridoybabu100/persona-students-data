@@ -1,22 +1,29 @@
+
+'use client'
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
+
+    const path = usePathname();
+    console.log("path name", path);
+    
   const links = (
     <>
-      <Link href={"/"}>
+      <Link href={"/"} className={`${path == '/' ? "bg-pink-500 text-white font-bold" : ""}`}>
         {" "}
-        <li>
+        <li >
           <a>Home</a>
         </li>
       </Link>
-      <Link href={"/students"}>
+      <Link href={"/students"} className={`${path == '/students' ? "bg-pink-500 text-white font-bold" : ""}`}>
         {" "}
         <li>
           <a>All Students</a>
         </li>
       </Link>
-      <Link href={"/pricing"}>
+      <Link href={"/pricing"} className={`${path == '/pricing' ? "bg-pink-500 text-white font-bold" : ""}`}>
         {" "}
         <li>
           <a>Contact</a>
@@ -53,7 +60,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl">Students</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
